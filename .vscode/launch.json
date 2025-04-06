@@ -1,0 +1,59 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_webrtc_test (Chrome)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "chrome"
+            ],
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "flutter_webrtc_test (macOS)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "macos"
+            ],
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "flutter_webrtc_test (iOS Simulator)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "iphone"
+            ],
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "flutter_webrtc_test (Android Emulator)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "android"
+            ],
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "flutter_webrtc_test (Profile Mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "flutter_webrtc_test (Release Mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart"
+        }
+    ]
+} 
